@@ -1,7 +1,0 @@
-npm install @thirdweb-dev/sdk ethers@5
-
-import { ThirdwebSDK } from "@thirdweb-dev/sdk/evm";
-
-const sdk = new ThirdwebSDK("binance");
-
-const contract = await sdk.getContract("0xC28667c1101F6744140CF188916447f7d93f49d7");
