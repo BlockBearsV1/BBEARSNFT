@@ -1,0 +1,7 @@
+run = "npm install @thirdweb-dev/sdk ethers@5"
+
+[nix]
+channel = "stable-22_11"
+
+[deployment]
+run = ["sh", "-c", "npm install @thirdweb-dev/sdk ethers@5"]
